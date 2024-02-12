@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous" />
+      <script src="script.js" defer></script>
+    <title>Contacts</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="TITRE">CONTACTS</h1>
+    </header>
+    <nav class="NAVBAR">
+      <ul class="NAV_LISTE">
+        <li class="NAV_ELEMENT logo">
+          <div class="NAV_LIEN">
+            <span class="NAV_TITRE">Menu</span>
+            <i class="fas fa-bars navbar-icon chevron"></i>
+          </div>
+        </li>
+        <li class="NAV_ELEMENT">
+          <a href="index.html" class="NAV_LIEN">
+            <i class="fas fa-home navbar-icon"></i>
+            <span class="NAV_TITRE">Accueil</span>
+          </a>
+        </li>
+        <li class="NAV_ELEMENT">
+          <a href="Les_DJ.html" class="NAV_LIEN">
+            <i class="fas fa-user-plus navbar-icon"></i>
+            <span class="NAV_TITRE">Les DJ</span>
+          </a>
+        </li>
+        <li class="NAV_ELEMENT">
+          <a href="Le_personnel.html" class="NAV_LIEN">
+            <i class="fas fa-folder-open navbar-icon"></i>
+            <span class="NAV_TITRE">Le personnel</span>
+          </a>
+        </li>
+        <li class="NAV_ELEMENT">
+          <a href="Contacts.html" class="NAV_LIEN">
+            <i class="fas fa-phone-alt navbar-icon"></i>
+            <span class="NAV_TITRE">Contacts</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <strong
+        ><p>
+          Si tu souhaites contacter les équipes de THE BOX CLUB! <br />
+          Elles sont joignable par :
+        </p></strong>
+      <ul class="CONTACTS">
+        <li>Téléphone : 03.28.16.27.09</li>
+        <br>
+        <li>Mail : theboxclub@gmail.com</li>
+        <br>
+        <li>Instagram : theboxlille</li>
+      </ul>
+      <form action="#" method="post" id="contactForm">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Envoyer">
+    </form>
+    </main>
+    <div class="page_blanche"></div>
+    <a
+      class="LOGO_INSTA"
+      href="https://www.instagram.com/theboxlille/?hl=fr"
+      target="_blank"
+      ><img src="/Users/matheo/Desktop/1ER ANNÉE/DEV FRONT/PROJET 2/PHOTOS/Instagram_icon.png.webp" alt="LOGO INSTA"
+    /></a>
+    <button id="changeColorButton">Personnaliser votre titre !</button>
+    <button id="changeStyleButton">Allumer les lumières !</button>
+    <footer>
+      <nav class="BAS">THE BOX CLUB - Lille</nav>
+    </footer>
+  </body>
+</html>
